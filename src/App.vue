@@ -3,12 +3,14 @@
 
   import SidelBar from './components/SidelBar.vue'
   import NavBar from './components/NavBar.vue'
+  import Footer from './components/Footer.vue'
   
   export default {
     name: 'App',
     components: {
       SidelBar,
-      NavBar
+      NavBar,
+      Footer
     }
   }
   
@@ -19,6 +21,7 @@
   <div id="app">
     <NavBar></NavBar>
     <SidelBar></SidelBar>
+    <Footer></Footer>
   </div>
 </template>
 
