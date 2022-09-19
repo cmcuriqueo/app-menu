@@ -18,7 +18,7 @@
     <!-- Section: Social media -->
     <section
              class="d-flex justify-content-between p-4 text-white"
-             style="background-color: #21D192"
+             style="background-color: #1c4f88;"
              >
       <!-- Left -->
       <div class="me-5">
@@ -57,28 +57,37 @@
         <!-- Grid row -->
         <div class="row mt-3">
           <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
             <!-- Content -->
-            <h6 class="text-uppercase fw-bold">Company name</h6>
+            <h6 class="text-uppercase fw-bold">Actualización de Entornos</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
+                style="width: 60px; background-color: #1c4f88; height: 2px"
                 />
-            <p>
-              Here you can use rows and columns to organize your footer
-              content. Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit.
-            </p>
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th scope="col">Desarrollo</th>
+                      <th scope="col">Preproducción</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>11-09-2022 04:55</td>
+                      <td>14-09-2022 04:37</td>
+                    </tr>
+                  </tbody>
+                </table>  
           </div>
           <!-- Grid column -->
 
           <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Products</h6>
+            <h6 class="text-uppercase fw-bold">Telefonos Internos</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
+                style="width: 60px; background-color: #1c4f88; height: 2px"
                 />
             <p>
               <a href="#!" class="text-dark">MDBootstrap</a>
@@ -94,44 +103,6 @@
             </p>
           </div>
           <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Useful links</h6>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
-                />
-            <p>
-              <a href="#!" class="text-dark">Your Account</a>
-            </p>
-            <p>
-              <a href="#!" class="text-dark">Become an Affiliate</a>
-            </p>
-            <p>
-              <a href="#!" class="text-dark">Shipping Rates</a>
-            </p>
-            <p>
-              <a href="#!" class="text-dark">Help</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Contact</h6>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
-                />
-            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-            <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
-            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-          </div>
-          <!-- Grid column -->
         </div>
         <!-- Grid row -->
       </div>
@@ -140,11 +111,11 @@
 
     <!-- Copyright -->
     <div
-         class="text-center p-3"
-         style="background-color: rgba(0, 0, 0, 0.2)"
+         class="text-center text-white p-3"
+         style="background-color: #58789c"
          >
-      © 2020 Copyright:
-      <a class="text-dark" href="https://mdbootstrap.com/"
+         © 2022 Todos los derechos reservados,
+      <a class="text-white" href="https://mdbootstrap.com/"
          >MDBootstrap.com</a
         >
     </div>

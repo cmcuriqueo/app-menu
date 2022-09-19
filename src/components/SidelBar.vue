@@ -2,8 +2,8 @@
 
     import Home from './Home.vue'
     export default {
-      name: 'SidelBar',
-      
+        name: 'SidelBar',
+        props:['sidelBarStatus'],
         components: {
             Home
         }
@@ -14,26 +14,26 @@
     <div class="wrapper">
 
         <!-- Sidebar  -->
-        <nav id="sidebar">
+        <nav id="sidebar" :class="sidelBarStatus">
  
             <ul class="list-unstyled components">
                 <h4 style="color: #58789c;margin-left: 35px;"><b>Menu General</b></h4>
                 <li>
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="#">Home 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 3</a>
-                        </li>
-                    </ul>
+                    <a href="#">Agenda</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Direccion de Finanzas</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#direccionFinanzas" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Tesoreria</a>
+                            <ul class="collapse list-unstyled" id="direccionFinanzas">
+                                <li>
+                                    <a href="#">Consultas De Pagos A Beneficiarios</a>
+                                </li>
+                            </ul>
+                            
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
@@ -159,7 +159,7 @@
     #sidebar ul li.active>a,
     a[aria-expanded="true"] {
         color: #fff;
-        background: #58789c;
+        background: #1c4f88;
     }
     
     a[data-toggle="collapse"] {
