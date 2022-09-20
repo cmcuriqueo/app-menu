@@ -7,8 +7,8 @@
 
 <template>
 <div>
-    <div class="heading-var-1">
-        <h5>Resoluciones</h5>
+    <div class="row" style="padding-left: 15px;">
+        <h5 style="z-index:3; color:#59789D">Resoluciones</h5>
     </div>
     <div class="card" style="z-index: 3">
     
